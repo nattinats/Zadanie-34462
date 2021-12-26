@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,37 @@
   <title>Document</title>
 
 </head>
+
 <body>
 
   <table border=1>
-    
-        <tr>
-            <td>Kolumna 1</td>
-            <td>Kolumna 2</td>
-            <td>Kolumna 3</td>
-        </tr>
 
-        <tr>
-            <td>wiersz 1</td>
-            <td>wiersz 2</td>
-            <td>wiersz 3</td>
-        </tr>
-        <tr>
-          <td>wiersz 4</td>
-          <td>wiersz 5</td>
-          <td>wiersz 6</td>
-      </tr>
-      <tr>
-        <td>wiersz 7</td>
-        <td>wiersz 8</td>
-        <td>wiersz 9</td>
+    <tr>
+      <td>Kolumna 1</td>
+
+      <td colspan="3">Kolumna 2</td>
+    </tr>
+    
+    <tr>
+      <td>wiersz 1</td>
+      <td rowspan="2">wiersz 2</td>
+      <td>wiersz 3</td>
     </tr>
 
-</table>
+    <tr>
+      <td>wiersz 4</td>
+      <td>wiersz 5</td>
+    </tr>
 
-  
+    <tr>
+      <td rowspan="3">wiersz 6</td>
+      <td>wiersz 7</td>
+      <td>wiersz 8</td>
+    </tr>
+
+  </table>
+
+
 </body>
+
 </html>
